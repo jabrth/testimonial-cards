@@ -2,6 +2,8 @@
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* --------CARD 1 WITH SPEECH BUBBLEb -----*/
+
 .card1{
 	display: flex;
 	flex-direction: column;
@@ -35,7 +37,6 @@
 	border-color: black transparent transparent  transparent;
 }
 
-
 .card1 .title{
 	display: flex;
 	align-items: center;
@@ -60,3 +61,29 @@
 	font-size: medium;
 	font-weight: lighter;
 }
+
+/* ---- CARD 2 --------- */
+
+.card2{
+	border: 2px, solid, black;
+	border-radius: 20px;
+	padding: 2%;
+	max-width: 50%;
+}
+
+.card2 .title{
+	display: flex;
+	align-items: center;
+	min-width: 525px;
+}
+
+.card2 img{
+	border-radius: 50%;
+	width: 12vw;
+	margin-right: 2vw;
+	max-width: 80px;
+} 
+
+
+
+
