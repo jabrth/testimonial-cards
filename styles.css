@@ -69,7 +69,7 @@
 	border: 2px, solid, black;
 	border-radius: 20px;
 	padding: 2%;
-	max-width: 70%;
+	max-width: 700px;
 }
 
 .card2 .title{
@@ -94,13 +94,15 @@
 	}
 
 }
+
 .card3{
-	max-width: 100%;
+	max-width: 700px;
 	display: flex;
 	margin-top: 10px;
-	
+	margin-bottom: 10px;
 }
- .card3 .content {
+
+.card3 .content {
 	border: 2px solid black;
 	padding: 2%;
 	margin-left: 10px;
@@ -123,6 +125,43 @@
 
 .card3 .stars{
 	width: 100px;
+}
+
+.card4{
+	border: 2px solid black;
+	border-radius: 20px;
+	text-align: center;
+	max-width: 700px;
+}
+
+.card4 p{
+	padding: 2%;
+}
+
+.card4 .slider{
+	display: flex;
+	justify-content: center;
+	/* justify-content: space-around; */
+	align-items: center;
+}
+
+.card4 img{
+	border-radius: 50%;
+	max-width: 80px;
+	margin: 10px 10px 0 10px;
+}
+
+.card4 .opacity{
+	opacity: 0.5;
+	height: 60px;
+}
+
+.card4 .chevron{
+	height: 20px;
+}
+
+.card4 h1{
+	margin-bottom: 10px;
 }
 
 
